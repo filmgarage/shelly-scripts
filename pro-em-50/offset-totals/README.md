@@ -35,11 +35,11 @@ Navigate to **Settings → Virtual Components** in your Shelly web interface.
 
 **Create 3 Number Components for Display:**
 
-| ID  | Name                   | Unit | Min   | Max       |
-|-----|------------------------|------|-------|-----------|
-| 200 | Channel 1 Total Energy | kWh  | 0     | 999999999 |
-| 201 | Channel 2 Total Energy | kWh  | 0     | 999999999 |
-| 202 | Total Energy           | kWh  | 0     | 999999999 |
+| ID  | Name                   | Unit | Min        | Max       |
+|-----|------------------------|------|------------|-----------|
+| 200 | Channel 1 Total Energy | kWh  | -999999999 | 999999999 |
+| 201 | Channel 2 Total Energy | kWh  | -999999999 | 999999999 |
+| 202 | Total Energy           | kWh  | -999999999 | 999999999 |
 
 **Create 3 Number Components for Offsets:**
 
